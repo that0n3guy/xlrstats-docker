@@ -11,4 +11,4 @@ RUN chown www-data:www-data /app
 
 
 EXPOSE 80
-VOLUME /app/Config
+VOLUME /app/app/Config
