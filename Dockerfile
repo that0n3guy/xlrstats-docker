@@ -11,6 +11,5 @@ RUN mkdir -p /app/app/tmp/cache/models && touch /app/app/tmp/cache/models/empty
 RUN mkdir -p /app/app/tmp/cache/persistent && touch /app/app/tmp/cache/persistent/empty
 RUN chown -R www-data:www-data /app
 
-
 EXPOSE 80
 VOLUME /app/app/Config
